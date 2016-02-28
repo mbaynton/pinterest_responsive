@@ -10,12 +10,6 @@ use Drupal\responsive_image\Entity\ResponsiveImageStyle;
 /**
  * Implements hook_page_attachments().
  *
- * Pinterest's JavaScript is included this way rather than using Drupal's
- * library system, because Pinterest's JavaScript reads numerous data-
- * attributes on the script tag(s) with 'pinit.js' in the src, and the library
- * system doesn't provide for adding those. Plus, external scripts don't seem
- * to benefit much from being added via libraries anyway.
- *
  * @param array $page
  */
 function pinterest_hover_page_attachments(array &$page) {
