@@ -4,3 +4,4 @@ drupal.pinterest_hover.exclude_hover_selectors:
     js/exclude_hover_selectors.js: {}
   dependencies:
     - core/jquery
+    - core/drupalSettings
